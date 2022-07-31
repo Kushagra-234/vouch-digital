@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vouch-digital/static/css/main.0a9d947a.css",
+    "main.js": "/vouch-digital/static/js/main.7cef1862.js",
+    "index.html": "/vouch-digital/index.html",
+    "main.0a9d947a.css.map": "/vouch-digital/static/css/main.0a9d947a.css.map",
+    "main.7cef1862.js.map": "/vouch-digital/static/js/main.7cef1862.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a9d947a.css",
+    "static/js/main.7cef1862.js"
+  ]
+}
