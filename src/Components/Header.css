@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway:wght@100&family=Roboto+Condensed:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins:wght@500&family=Raleway:wght@600&family=Roboto+Condensed:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  border-top: 1.5px solid grey;
+  border-bottom: 3px solid rgba(153, 148, 148, 0.1);
+}
+
+@media (max-width: 360px) {
+  .btn {
+    width: 0px;
+  }
+  .btn1 {
+    width: 0px;
+  }
+}
+
+.h-text {
+  font-family: "Kanit", sans-serif;
+  margin-left: 20px;
+
+  font-size: 30px;
+}
+.dot {
+  color: orange;
+}
+
+.btn {
+  margin-right: 10px;
+  top: 10px;
+  padding: 8px;
+}
+.btn1 {
+  width: 129px;
+
+  /* position: relative; */
+  right: 50px;
+  top: 10px;
+  padding: 6px;
+
+  /* width: 10px; */
+}
+.button-group {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+@media (max-width:476px){
+    .button-group{
+        display: none ;
+    }
+    
+}

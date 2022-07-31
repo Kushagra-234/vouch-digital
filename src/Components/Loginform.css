@@ -1,0 +1,104 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+.heading-header {
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.loginheader {
+  width: 100%;
+  /* justify-content: center;
+    align-items: center; */
+}
+.imgsrc {
+  width: 60%;
+}
+
+@media (max-width: 1244px) {
+  .imgsrc {
+    width: 55%;
+  }
+  .loginheader {
+    width: 50%;
+  }
+}
+
+.loginheader {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  margin: 15px;
+  width: 95%;
+  max-width: 380px;
+  height: 50px;
+  opacity: 0.3;
+
+  /* padding: 20px; */
+}
+
+.item1 {
+  margin: 15px;
+  width: 95%;
+  max-width: 380px;
+  height: 50px;
+  opacity: 0.3;
+}
+.login-form-button {
+  width: 99%;
+  max-width: 420px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+}
+
+input[type="checkbox"] {
+  margin: 10px;
+
+  display: inline-block;
+  width: auto;
+}
+
+.login-form-forgot {
+  margin-left: 180px;
+  color: black;
+}
+@media (max-width: 1050px) {
+  .form-header {
+    flex-direction: column;
+  }
+
+  .imgsrc {
+    display: none;
+  }
+
+  .loginheader {
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+  }
+}
+
+@media (max-width: 473px) {
+  .loginheader {
+    font-size: 10px;
+    width: 100%;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
